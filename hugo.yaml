@@ -70,7 +70,6 @@ params:
   # comments: false
   assets:
     disableHLJS: true
-
 markup:
   goldmark:
     renderer:
