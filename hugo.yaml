@@ -81,3 +81,7 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
+
+services:
+  googleAnalytics:
+    id: G-DCD27E5FGH
