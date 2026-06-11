@@ -1,0 +1,4 @@
+# Jroom36 Tech Pages
+
+## Techs
+- [Part 1: Running Local LLM for Java Tests — Ollama + Gemma 4b + Devoxx Genie](http://localhost:1313/techs/local-ai-java-testing/part1-ollama-gemma-devoxx-setup/)

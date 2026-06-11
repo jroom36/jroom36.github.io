@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gemma4 on Jroom36</title>
+    <link>http://localhost:1313/tags/gemma4/</link>
+    <description>Recent content in Gemma4 on Jroom36</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Alexey Y.</copyright>
+    <lastBuildDate>Wed, 10 Jun 2026 13:47:52 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gemma4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 1: Setting Up Local LLM for Java Tests — Ollama &#43; Gemma 4b &#43; Devoxx Genie</title>
+      <link>http://localhost:1313/techs/local-llm-gemma4-devoxx-genie-for-java/</link>
+      <pubDate>Wed, 10 Jun 2026 13:47:52 +0700</pubDate>
+      <guid>http://localhost:1313/techs/local-llm-gemma4-devoxx-genie-for-java/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;h2 id=&#34;proposed-solution&#34;&gt;Proposed solution&lt;/h2&gt;
+&lt;p&gt;Proposed solution&lt;/p&gt;
+&lt;h2 id=&#34;steps-to-go&#34;&gt;Steps to go&lt;/h2&gt;
+&lt;p&gt;Steps to go&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

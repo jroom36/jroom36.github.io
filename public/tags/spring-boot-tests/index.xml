@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spring-Boot-Tests on Jroom36 Tech Pages</title>
+    <link>http://localhost:1313/tags/spring-boot-tests/</link>
+    <description>Recent content in Spring-Boot-Tests on Jroom36 Tech Pages</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Alexey Y.</copyright>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/spring-boot-tests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 2: Devoxx Genie Skills for Testing Spring Boot — Practical Examples for Controllers, Services, and Repositories</title>
+      <link>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</guid>
+      <description>Practical examples of Devoxx Genie Skills for generating unit, integration, contract, and E2E tests in Spring Boot applications</description>
+    </item>
+  </channel>
+</rss>

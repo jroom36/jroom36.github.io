@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Local-Ai on Jroom36 Tech Pages</title>
+    <link>http://localhost:1313/tags/local-ai/</link>
+    <description>Recent content in Local-Ai on Jroom36 Tech Pages</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Alexey Y.</copyright>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/local-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 1: Running Local LLM for Java Tests — Ollama &#43; Gemma 4b &#43; Devoxx Genie</title>
+      <link>http://localhost:1313/techs/local-ai-java-testing/part1-ollama-gemma-devoxx-setup/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techs/local-ai-java-testing/part1-ollama-gemma-devoxx-setup/</guid>
+      <description>How to set up Ollama with Google Gemma 4b and integrate Devoxx Genie plugin for generating Java tests in IntelliJ IDEA</description>
+    </item>
+  </channel>
+</rss>
