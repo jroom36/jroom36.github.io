@@ -3,10 +3,94 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/ai/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-code-generation/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-engineer/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cursor-ai/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/custom-skills/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/datajpatest/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/integration-tests/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/java/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/java-testing/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/junit5/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llm-for-developers/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/local-ai-for-java-testing/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mockito/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opencode/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/openskills/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/spring-boot/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/spring-boot/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/spring-boot-testing/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/techs/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/test-automation/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/testcontainers/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/testing/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unit-tests/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/webmvctest/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/windsurf-ai/</loc>
+    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/devoxx-genie/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
@@ -14,22 +98,13 @@
     <loc>http://localhost:1313/tags/gemma/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/java/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/java-tests/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/llm/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/local-ai-for-java-testing/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/local-ai/</loc>
@@ -39,21 +114,6 @@
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/techs/local-ai-java-testing/part1-ollama-gemma-devoxx-setup/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/spring-boot/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/techs/</loc>
-    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/testing/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Alexey Y.</copyright>
-    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/spring-boot-tests/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 2: Devoxx Genie Skills for Testing Spring Boot — Practical Examples for Controllers, Services, and Repositories</title>
+      <title>Part 2: Supercharging Spring Boot Development with OpenSkills — Practical Examples for Controllers, Services, and Repositories</title>
       <link>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</link>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</guid>
-      <description>Practical examples of Devoxx Genie Skills for generating unit, integration, contract, and E2E tests in Spring Boot applications</description>
+      <description>Move beyond IDE‑specific plugins. This guide shows how OpenSkills brings structured, reusable AI skills to any Spring Boot project — with practical examples for @WebMvcTest, @DataJpaTest with Testcontainers, and integration tests.</description>
     </item>
   </channel>
 </rss>
