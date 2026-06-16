@@ -17,9 +17,6 @@
     <loc>http://localhost:1313/tags/enterprise/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/isolation/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/java/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -44,10 +41,16 @@
     <loc>http://localhost:1313/tags/qdrant/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/qwen3/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/series/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/spring-boot/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/spring-boot/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -96,9 +99,6 @@
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/</loc>
-    <lastmod>2026-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/spring-boot/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/spring-boot-testing/</loc>

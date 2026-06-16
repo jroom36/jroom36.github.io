@@ -5,8 +5,8 @@ draft: false
 series: "jrom36-notes"
 seriesWeight: 1
 categories: ["Java", "Spring Boot", "AI", "Qdrant", "Local Ollama"]
-tags: ["docker", "ollama", "Qdrant", "enterprise", "isolation", "offline-ai"]
-description: "Building a local semantic search engine using Qdrant, Qwen3-embedding via Ollama, and Spring Boot WebFlux"
+tags: ["docker", "ollama", "Qdrant", "enterprise", "Qwen3", "offline-ai", "Spring Boot"]
+description: "A practical guide to building a fully offline semantic search engine: Qdrant vector database, Qwen3-Embedding via local Ollama, and reactive Spring Boot WebFlux API with sematic search capabilities"
 ShowToc: true
 TocOpen: true
 cover:

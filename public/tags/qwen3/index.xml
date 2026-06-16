@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Jrom36-Notes on Jroom36 Tech Pages</title>
-    <link>http://localhost:1313/series/jrom36-notes/</link>
-    <description>Recent content in Jrom36-Notes on Jroom36 Tech Pages</description>
+    <title>Qwen3 on Jroom36 Tech Pages</title>
+    <link>http://localhost:1313/tags/qwen3/</link>
+    <description>Recent content in Qwen3 on Jroom36 Tech Pages</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Alexey Y.</copyright>
     <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/jrom36-notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/qwen3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Local Semantic Search Engine with Qdrant, Qwen3-Embedding (4b), and Spring Boot</title>
       <link>http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/</link>

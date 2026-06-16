@@ -14,7 +14,7 @@
       <link>http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/</guid>
-      <description>Building a local semantic search engine using Qdrant, Qwen3-embedding via Ollama, and Spring Boot WebFlux</description>
+      <description>A practical guide to building a fully offline semantic search engine: Qdrant vector database, Qwen3-Embedding via local Ollama, and reactive Spring Boot WebFlux API with sematic search capabilities</description>
     </item>
   </channel>
 </rss>
