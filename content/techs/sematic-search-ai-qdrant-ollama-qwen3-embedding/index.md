@@ -261,7 +261,22 @@ The second endpoint allows filtering results based on score that is assigned to 
     "with_payload": true
 }
 ```
+## The Synchronous Limitation of Spring AI for Embeddings & Qdrant
 
+Spring AI offers an excellent abstraction layer and is highly recommended for use in embedding, tooling, chat, and other AI pipelines. However, a significant limitation exists for developers building fully reactive applications.
+
+As confirmed by the official [Spring AI documentation](https://docs.spring.io/spring-ai/reference/api/embeddings.html) and [GitHub issue #2828](https://github.com/spring-projects/spring-ai/issues/2828), the `EmbeddingModel` interface defines a contract that returns results synchronously. This requires the use of `Mono.fromCallable(...).subscribeOn(Schedulers.boundedElastic())` to prevent blocking the non-blocking WebFlux threads.
+
+`Mono.fromCallable(...).subscribeOn(Schedulers.boundedElastic())` is a common pattern to handle blocking calls and offload them from the main event loop. However, it still has significantly worse performance — roughly **300 RPS vs 10k RPS** in a fully reactive pipeline.
+
+Similarly, the `QdrantVectorStore` operates synchronously, calling the embedding model and then blocking on the Qdrant gRPC client, which also necessitates thread offloading.
+
+Therefore, for a truly reactive application, the only alternative is to bypass Spring AI's starter and create your own fully asynchronous implementation using Spring's `WebClient`. This involves manually crafting HTTP requests and parsing JSON responses, as demonstrated in the following examples (some models could be reused from Spring AI, but this is a TODO):
+
+- [ReactiveQdrantNoteRepository](https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/repository/ReactiveQdrantNoteRepository.java)
+- [ReactiveEmbeddingService](https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/service/ReactiveEmbeddingService.java)
+
+Does this limitation affect the current demo? **No**, because the primary bottleneck for this specific setup is the processing time of Ollama embedding requests. However, if you have sufficient resources and require handling upwards of 300 requests per second on the `EmbeddingModel`, you should consider moving to the true async version with `WebClient`. Alternatively, you can change your approach: schedule the request but process it asynchronously in the background.
 ## Demo
 
 https://github.com/alexey-yurganov/jroom36-notes/tree/main
