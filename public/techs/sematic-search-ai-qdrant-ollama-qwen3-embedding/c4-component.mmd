@@ -1,0 +1,52 @@
+C4Component
+title Component diagram for jroom36-notes — Spring Boot WebFlux API
+
+Person(user, "User", "A person using the notes application via REST API")
+
+System_Boundary(api_app, "jroom36-notes API") {
+  Container_Boundary(web, "Web Layer") {
+    Component(controller, "ReactiveNoteController", "Spring @RestController", "Exposes REST endpoints for CRUD, search, bulk import, and SSE streaming")
+    Component(error_handler, "GlobalErrorHandler", "@RestControllerAdvice", "Handles validation and runtime exceptions, returns RFC 9457 ProblemDetail")
+  }
+
+  Container_Boundary(biz, "Business Logic Layer") {
+    Component(note_service, "ReactiveNoteService", "@Service", "Orchestrates note CRUD, semantic search, and bulk operations")
+    Component(embedding_service, "ReactiveEmbeddingService", "@Service", "Calls Ollama to generate vector embeddings for note content")
+  }
+
+  Container_Boundary(data, "Data Access Layer") {
+    Component(repository, "ReactiveQdrantNoteRepository", "@Repository", "REST client for Qdrant CRUD, scroll, delete, and vector search operations")
+  }
+
+  Container_Boundary(config, "Configuration") {
+    Component(qdrant_config, "QdrantConfig", "@ConfigurationProperties", "Qdrant host, port, and collection name")
+    Component(ollama_config, "OllamaConfig", "@ConfigurationProperties", "Ollama host and embedding model")
+    Component(wc_config, "WebClientConfig", "@Configuration", "Netty-based WebClient with timeouts")
+  }
+
+  Container_Boundary(models, "Model Layer") {
+    Component(note, "Note", "Domain entity", "Mutable note with id, content, createdAt")
+    Component(note_doc, "NoteDocument", "Qdrant DTO", "Qdrant point payload with id, content, createdAt")
+    Component(note_req, "NoteRequest", "Request record", "Incoming create/update payload")
+    Component(search_req, "SearchRequest", "Request record", "Search query parameters")
+    Component(search_res, "SearchResult", "Response record", "Search result with id, content, score")
+    Component(embedding, "Embedding", "Record + parser", "Parses Ollama embedding response")
+  }
+}
+
+System_Ext(ollama, "Ollama", "Embedding model: qwen3-embedding:4b")
+System_Ext(qdrant_ext, "Qdrant", "Vector database, collection: notes")
+
+Rel(user, controller, "Uses", "HTTP/REST")
+Rel(controller, note_service, "Delegates to")
+Rel(controller, error_handler, "Delegates error handling to")
+Rel(note_service, embedding_service, "Calls to generate embeddings")
+Rel(note_service, repository, "Calls to persist/query data")
+Rel(embedding_service, ollama, "POST /api/embeddings", "HTTP/JSON")
+Rel(repository, qdrant_ext, "CRUD + vector search", "HTTP REST API port 6333")
+Rel(ollama_config, embedding_service, "Configured by")
+Rel(qdrant_config, repository, "Configured by")
+Rel(wc_config, embedding_service, "Provides WebClient")
+Rel(wc_config, repository, "Provides WebClient")
+
+UpdateLayoutConfig($c4ShapeInRow="4", $c4BoundaryInRow="2")

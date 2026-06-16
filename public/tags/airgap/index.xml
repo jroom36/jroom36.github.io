@@ -7,13 +7,13 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Alexey Y.</copyright>
-    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/airgap/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 3: Docker Isolation for Enterprise — Air-Gapped LLM with Ollama and Gemma</title>
-      <link>http://localhost:1313/techs/local-ai-java-testing/part3-docker-llm-isolation-enterprise/</link>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techs/local-ai-java-testing/part3-docker-llm-isolation-enterprise/</guid>
+      <title>Semantic search: Qdrant &#43; qwen3-embedding:4b &#43; Local Ollama</title>
+      <link>http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/</guid>
       <description>How to isolate Ollama &#43; Gemma in Docker containers for secure, air-gapped enterprise environments with no internet access</description>
     </item>
   </channel>

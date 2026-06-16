@@ -4,7 +4,7 @@ date: 2026-06-10
 draft: false
 series: "Local AI for Java Testing"
 seriesWeight: 1
-categories: ["Java", "Spring Boot", "AI", "Testing", "LLM", ]
+categories: ["Java", "Spring Boot", "AI", "Testing", "LLM", "Local Ollama"]
 tags: ["ollama", "gemma", "devoxx-genie", "java-tests", "llm", "local-ai"]
 description: "How to set up Ollama with Google Gemma 4b and integrate Devoxx Genie plugin for generating Java tests in IntelliJ IDEA"
 ShowToc: true

@@ -1,5 +1,6 @@
 # Jroom36 Tech Pages
 
 ## Techs
+- [Building a Local Semantic Search Engine with Qdrant, Qwen3-Embedding (4b), and Spring Boot](http://localhost:1313/techs/sematic-search-ai-qdrant-ollama-qwen3-embedding/)
 - [Part 2: Supercharging Spring Boot Development with OpenSkills — Practical Examples for Controllers, Services, and Repositories](http://localhost:1313/techs/local-ai-java-testing/part2-devoxx-skills-spring-boot-tests/)
 - [Part 1: Running Local LLM for Java Tests — Ollama + Gemma 4b + Devoxx Genie](http://localhost:1313/techs/local-ai-java-testing/part1-ollama-gemma-devoxx-setup/)

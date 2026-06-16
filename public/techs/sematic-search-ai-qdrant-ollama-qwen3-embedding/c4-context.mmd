@@ -1,0 +1,15 @@
+C4Context
+title System Context diagram for jroom36-notes
+
+Person(user, "User", "A person using the notes application via REST API or curl")
+System_Boundary(notes_system, "jroom36-notes") {
+  System(notes_app, "jroom36-notes API", "Note management with semantic search")
+}
+System_Ext(ollama, "Ollama", "Local LLM inference server providing text embeddings")
+System_Ext(qdrant, "Qdrant", "Vector database for storing and searching note embeddings")
+
+Rel(user, notes_app, "Uses", "HTTP/REST")
+Rel(notes_app, ollama, "Generates embeddings via", "HTTP POST /api/embeddings")
+Rel(notes_app, qdrant, "Stores & searches vectors via", "HTTP REST API")
+
+UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
