@@ -186,9 +186,9 @@ and add spring-boot-starter-webflux to dependencies (pom.xml)
 After that Spring will switch Web Server from embedded Tomcat to Netty and you will be able to use Mono and Flux to handle reactivity of your application.
 
 As an example to motivate thinking about reactivity, consider that we implemented [ReactiveEmbeddingService.java](
-https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/service/ReactiveEmbeddingService.java) using reactive WebClient, a blocking version with a REST Client supports only 100–300 requests per second(RPS) while the version implemented with reactive WebClient can handle up to 10k RPS up to 10k RPS
+https://github.com/alexey-yurganov/jroom36-notes/blob/feature/manual-webclient-calls/src/main/java/io/github/jroom36/notes/service/ReactiveEmbeddingService.java) using reactive WebClient, a blocking version with a REST Client supports only 100–300 requests per second(RPS) while the version implemented with reactive WebClient can handle up to 10k RPS up to 10k RPS
 
-We have controller [ReactiveNoteController](https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/controller/ReactiveNoteController.java) which allows handling basic operations with notes:
+We have controller [ReactiveNoteController](https://github.com/alexey-yurganov/jroom36-notes/blob/feature/manual-webclient-calls/src/main/java/io/github/jroom36/notes/controller/ReactiveNoteController.java) which allows handling basic operations with notes:
 
 | Method | Path | Description |
 |---|---|---|
@@ -273,13 +273,13 @@ Similarly, the `QdrantVectorStore` operates synchronously, calling the embedding
 
 Therefore, for a truly reactive application, the only alternative is to bypass Spring AI's starter and create your own fully asynchronous implementation using Spring's `WebClient`. This involves manually crafting HTTP requests and parsing JSON responses, as demonstrated in the following examples (some models could be reused from Spring AI, but this is a TODO):
 
-- [ReactiveQdrantNoteRepository](https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/repository/ReactiveQdrantNoteRepository.java)
-- [ReactiveEmbeddingService](https://github.com/alexey-yurganov/jroom36-notes/blob/main/src/main/java/io/github/jroom36/notes/service/ReactiveEmbeddingService.java)
+- [ReactiveQdrantNoteRepository](https://github.com/alexey-yurganov/jroom36-notes/blob/feature/manual-webclient-calls/src/main/java/io/github/jroom36/notes/repository/ReactiveQdrantNoteRepository.java)
+- [ReactiveEmbeddingService](https://github.com/alexey-yurganov/jroom36-notes/blob/feature/manual-webclient-calls/src/main/java/io/github/jroom36/notes/service/ReactiveEmbeddingService.java)
 
 Does this limitation affect the current demo? **No**, because the primary bottleneck for this specific setup is the processing time of Ollama embedding requests. However, if you have sufficient resources and require handling upwards of 300 requests per second on the `EmbeddingModel`, you should consider moving to the true async version with `WebClient`. Alternatively, you can change your approach: schedule the request but process it asynchronously in the background.
 ## Demo
 
-https://github.com/alexey-yurganov/jroom36-notes/tree/main
+https://github.com/alexey-yurganov/jroom36-notes/tree/feature/manual-webclient-calls
 
 Let's build and start the application and test how it works.
 
