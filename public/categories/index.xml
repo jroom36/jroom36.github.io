@@ -7,47 +7,47 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Alexey Y.</copyright>
-    <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>http://localhost:1313/categories/ai/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
       <link>http://localhost:1313/categories/java/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Local Ollama</title>
       <link>http://localhost:1313/categories/local-ollama/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/local-ollama/</guid>
       <description></description>
     </item>
     <item>
       <title>Qdrant</title>
       <link>http://localhost:1313/categories/qdrant/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/qdrant/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring AI</title>
       <link>http://localhost:1313/categories/spring-ai/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/spring-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
       <link>http://localhost:1313/categories/spring-boot/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/spring-boot/</guid>
       <description></description>
     </item>
